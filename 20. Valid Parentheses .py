@@ -1,6 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        while s.count('()') > 0 or s.count('[]') or s.count('{}'):
+        while s.count('()') > 0 or s.count('[]') > 0 or s.count('{}') > 0:
             s = s.replace('()','')
             s = s.replace('{}','')
             s = s.replace('[]','')
