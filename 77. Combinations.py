@@ -1,4 +1,4 @@
-lass Solution:
+class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         l = []
         def a (s, l2):
